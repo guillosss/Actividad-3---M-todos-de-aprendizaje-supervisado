@@ -1,0 +1,121 @@
+{
+  "baseline_accuracy": 0.5246,
+  "comparacion_profundidad": [
+    {
+      "max_depth": 2,
+      "acc_train": 0.5765,
+      "acc_cv": 0.5765,
+      "acc_test": 0.5733
+    },
+    {
+      "max_depth": 3,
+      "acc_train": 0.6652,
+      "acc_cv": 0.6652,
+      "acc_test": 0.6458
+    },
+    {
+      "max_depth": 4,
+      "acc_train": 0.7376,
+      "acc_cv": 0.7376,
+      "acc_test": 0.7238
+    },
+    {
+      "max_depth": 5,
+      "acc_train": 0.7522,
+      "acc_cv": 0.7483,
+      "acc_test": 0.7475
+    },
+    {
+      "max_depth": 6,
+      "acc_train": 0.7953,
+      "acc_cv": 0.7866,
+      "acc_test": 0.7817
+    },
+    {
+      "max_depth": 8,
+      "acc_train": 0.8148,
+      "acc_cv": 0.7968,
+      "acc_test": 0.79
+    },
+    {
+      "max_depth": 10,
+      "acc_train": 0.8281,
+      "acc_cv": 0.7908,
+      "acc_test": 0.7887
+    },
+    {
+      "max_depth": 15,
+      "acc_train": 0.853,
+      "acc_cv": 0.7804,
+      "acc_test": 0.7854
+    },
+    {
+      "max_depth": "None",
+      "acc_train": 0.8814,
+      "acc_cv": 0.7674,
+      "acc_test": 0.7825
+    }
+  ],
+  "max_depth_elegido": 8,
+  "accuracy_test": 0.79,
+  "reporte": {
+    "bajo": {
+      "precision": 0.8487394957983193,
+      "recall": 0.8824463860206513,
+      "f1-score": 0.8652647975077882,
+      "support": 1259.0
+    },
+    "medio": {
+      "precision": 0.7321739130434782,
+      "recall": 0.5460440985732814,
+      "f1-score": 0.62555720653789,
+      "support": 771.0
+    },
+    "alto": {
+      "precision": 0.7054263565891473,
+      "recall": 0.9837837837837838,
+      "f1-score": 0.8216704288939052,
+      "support": 370.0
+    },
+    "accuracy": 0.79,
+    "macro avg": {
+      "precision": 0.7621132551436482,
+      "recall": 0.8040914227925722,
+      "f1-score": 0.7708308109798612,
+      "support": 2400.0
+    },
+    "weighted avg": {
+      "precision": 0.7891986933769126,
+      "recall": 0.79,
+      "f1-score": 0.7815379354140681,
+      "support": 2400.0
+    }
+  },
+  "matriz_confusion": [
+    [
+      1111,
+      148,
+      0
+    ],
+    [
+      198,
+      421,
+      152
+    ],
+    [
+      0,
+      6,
+      364
+    ]
+  ],
+  "top_importancias": {
+    "hora": 0.7065,
+    "dia_semana": 0.1038,
+    "festivo": 0.0903,
+    "lluvia": 0.064,
+    "estacion_Av. Chile": 0.0071,
+    "estacion_Portal Sur": 0.0038,
+    "estacion_Av. Jiménez": 0.0032,
+    "estacion_Universidades": 0.0028
+  }
+}

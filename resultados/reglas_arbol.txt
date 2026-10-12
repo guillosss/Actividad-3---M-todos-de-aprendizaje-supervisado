@@ -1,0 +1,22 @@
+|--- dia_semana <= 4.50
+|   |--- hora <= 8.50
+|   |   |--- hora <= 5.50
+|   |   |   |--- class: medio
+|   |   |--- hora >  5.50
+|   |   |   |--- class: alto
+|   |--- hora >  8.50
+|   |   |--- hora <= 15.50
+|   |   |   |--- class: bajo
+|   |   |--- hora >  15.50
+|   |   |   |--- class: medio
+|--- dia_semana >  4.50
+|   |--- hora <= 16.50
+|   |   |--- hora <= 10.50
+|   |   |   |--- class: bajo
+|   |   |--- hora >  10.50
+|   |   |   |--- class: medio
+|   |--- hora >  16.50
+|   |   |--- hora <= 17.50
+|   |   |   |--- class: bajo
+|   |   |--- hora >  17.50
+|   |   |   |--- class: bajo
